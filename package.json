@@ -1,0 +1,21 @@
+{
+  "name": "awal",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.6",
+    "express": "^4.17.1",
+    "forever": "^3.0.2",
+    "react-aws-iot": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}

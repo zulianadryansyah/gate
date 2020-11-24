@@ -1,0 +1,12 @@
+"test": "echo \"Error: no test specified\" && exit 1"
+
+    setInterval(myTimer,1000);
+    function myTimer(){
+      
+      var obj = JSON.parse(nilaiSub());
+      // let a = "Nilai Random 10: " + obj.random10;
+      // let b = " Nilai Random 5: " + obj.random5;
+      res.write('<script>');
+      res.write('document.getElementById("r10").innerHTML =' + obj.random10);
+      res.write('</script>');
+    }
